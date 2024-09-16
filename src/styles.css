@@ -8,11 +8,32 @@
 }
 
 img {
-    height: 250px;
-    width: auto;
+    height: 230px;
+    width: 200px;
     border: 2px solid black;
 }
 
 #content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.appetizers, .mainCourse, .beverages {
     text-align: center;
+} 
+
+.class1, .class2, .class3 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.class2 {
+    gap: 16px;
+}
+
+ul {
+    list-style-type: none;
 }

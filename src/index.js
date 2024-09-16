@@ -1,6 +1,6 @@
 import "./styles.css";
-import { headingElement, imgElement, paragraphElement } from './landingPage.js';
+import { displayLandingPage } from './landingPage.js';
+import { displayMenuPage } from "./menuPage.js";
 
-const mainContentElement = document.querySelector('#content');
-mainContentElement.append(headingElement, imgElement, paragraphElement)
+displayMenuPage();
 console.log("Hello, World!");
